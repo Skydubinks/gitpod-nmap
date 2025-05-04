@@ -1,0 +1,10 @@
+{
+  "name": "nmap-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "apt-get update && apt-get install -y nmap",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
